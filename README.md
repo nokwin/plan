@@ -1,119 +1,137 @@
-# 📌 FAANG Interview Study Plan  
+# 📌 FAANG Interview Study Plan
 
-## Overview  
-- **Algorithm Practice**: Solve **5 easy, 5 medium, and 2 hard** tasks per topic (approx. **1 week per topic**).  
-- **System Design**: Spend **~1 week per topic**.  
-- **Behavioral Interview**: Prepare **~3 stories per day**.  
+## 🚀 Introduction
+Hey there! 👋 My name is **Stepan**, and I am a **Front-End Engineer at Microsoft** with around **8 years of experience** (Level 62 at Microsoft). 
 
----
-
-## 📚 Algorithm Core  
-
-### 🔹 Sliding Window  
-**Use case:** Problems related to **subarrays, substrings, or sequences** in an array.  
-
-**📝 Theory:**  
-- [ ] Link 1  
-- [ ] Link 2 *(to be added as I start)*
-
-**📝 Practice:**  
-- [ ] Task 1  
-- [ ] Task 2 *(to be added as I start)*  
-
-### 🔹 Two Pointers  
-**Use case:** Helpful when working with **sorted arrays or linked lists** to find **pairs, triplets, or partitions
-
-### 🔹 Fast & Slow Pointers (Floyd’s Cycle Detection)  
-**Use case:** Finding cycles in linked lists or repeating sequences.
-
-### 🔹 Merge Intervals 
-**Use case:** When dealing with overlapping ranges. 
-
-### 🔹 Binary Search
-**Use case:** When working with sorted arrays or when trying to minimize/maximize a function. 
-
-### 🔹 Bit Manipulation  
-**Use case:** When working with binary numbers or optimizing space. 
-
-### 🔹 Backtracking  
-**Use case:** When you need to explore multiple possibilities recursively
-
-### 🔹 Dynamic Programming (DP)  
-**Use case:** When a problem can be broken down into overlapping subproblems
-
-### 🔹 Greedy Algorithms  
-**Use case:** When choosing the best local option leads to the global solution
-
-### 🔹 Graph Traversal (DFS & BFS)
-**Use case:** When working with grids, trees, or connected components.
-
-### 🔹 Union-Find (Disjoint Set)
-**Use case:** When dealing with connectivity problems
-
-### 🔹 Heap (Priority Queue)
-**Use case:** When you need to get the smallest/largest element quickly
-
-### 🔹 Prefix Sum & Difference Arrays
-**Use case:** When querying subarray sums efficiently.
-
-### 🔹 Topological Sorting (Kahn’s Algorithm)
-**Use case:** When working with dependencies (DAG). 
-
-### 🔹 Trie (Prefix Tree)
-**Use case:** When dealing with dictionary words, autocomplete, or prefix matching. 
-
-### 🔹 Monotonic Stack / Queue
-**Use case:** Finding next/previous greater/smaller elements efficiently. 
-
-### 🔹 Segment Tree & Fenwick Tree
-**Use case:** When handling range queries efficiently. 
+This document outlines my structured plan to prepare for **FAANG interviews**, covering **algorithms, system design, and behavioral interviews**. Follow along as I document my journey! 🏆
 
 ---
 
-## 📌 JavaScript Core  
+## 📌 Study Overview
 
-### 🔹 Closures & Lexical Scope  
-**Definition:** JavaScript functions retain access to their **parent scope**, even after execution. Useful for:  
-✔️ Private variables  
-✔️ Memoization  
-✔️ Callbacks  
-
-**✅ Key Concepts:**  
-- Function scope & block scope  
-- Lexical environment  
-- Practical use cases (e.g., function factories, event handlers)  
-
-**📝 Tasks:**  
-- [ ] Task 1  
-- [ ] Task 2 *(to be added as I start)*  
-
-### 🔹 Promises & Async/Await  
-**Definition:** JavaScript is asynchronous, and handling operations like **API calls, `setTimeout`**, and event listeners efficiently is crucial.  
-
-**✅ Key Concepts:**  
-- Promises (`resolve`, `reject`, chaining)  
-- Async/Await (handling async code)  
-- Error handling (`.catch()`, `try/catch`)  
+| Section               | Details |
+|----------------------|---------|
+| **Algorithm Practice** | Solve **5 easy, 5 medium, and 2 hard** tasks per topic (**~1 week per topic**). |
+| **System Design**     | Spend **~1 week per topic**. |
+| **Behavioral Interview** | Prepare **~3 stories per day**. |
 
 ---
 
-## 🏗️ System Design Topics  
+## 📚 Algorithm Core 
+### 💡 How to Approach Algorithm Problems
+1. **Understand the Problem** – Read carefully, clarify requirements, and identify constraints.
+2. **Identify the Pattern** – Recognize problem type based on common techniques.
+3. **Plan the Approach** – Start with a brute-force solution, then optimize.
+4. **Implement the Code** – Follow a structured plan, keeping it modular.
+5. **Optimize & Test** – Analyze time/space complexity and test edge cases.
 
-### Internet & HTTP Basics  
-**✅ Key Concepts:**  
-✔️ HTTP vs. HTTPS (SSL/TLS, encryption)  
-✔️ REST vs. GraphQL vs. gRPC  
-✔️ Status Codes & Methods (GET, POST, PUT, DELETE)  
-✔️ DNS & CDN  
-✔️ CORS (Cross-Origin Resource Sharing)  
-✔️ Rate Limiting & API Throttling  
+### 🔹 Key Algorithm Topics
+- **Sliding Window** – Used for **subarrays, substrings, sequences**.
+- **Two Pointers** – Efficient for **sorted arrays, linked lists**.
+- **Fast & Slow Pointers (Floyd’s Cycle Detection)** – Detect **cycles**.
+- **Merge Intervals** – Handle **overlapping ranges**.
+- **Binary Search** – Efficient searching in **sorted arrays**.
+- **Bit Manipulation** – Useful for **binary number operations**.
+- **Backtracking** – Explore multiple possibilities **recursively**.
+- **Dynamic Programming (DP)** – Solve problems with **overlapping subproblems**.
+- **Greedy Algorithms** – Optimal **local choices** leading to a global solution.
+- **Graph Traversal (DFS & BFS)** – Solve **grid/tree problems**.
+- **Union-Find (Disjoint Set)** – Handle **connectivity problems**.
+- **Heap (Priority Queue)** – Find **smallest/largest** element efficiently.
+- **Prefix Sum & Difference Arrays** – Optimize **subarray sum queries**.
+- **Topological Sorting** – Solve problems with **dependencies (DAG)**.
+- **Trie (Prefix Tree)** – Useful for **autocomplete, dictionary words**.
+- **Monotonic Stack / Queue** – Solve **next/previous greater elements**.
+- **Segment Tree & Fenwick Tree** – Handle **efficient range queries**.
 
-### Accessibility (A11Y) & User Experience  
-**🔹 Why?** Building **inclusive, user-friendly systems** improves usability and compliance.  
+---
 
-**✅ Key Concepts:**  
-✔️ WCAG Guidelines  
-✔️ ARIA Roles & Semantic HTML  
-✔️ Keyboard Navigation & Focus Management  
-✔️ Screen Readers & Assistive Technologies  
-✔️ Color Contrast & Dark Mode Support  
+## 📌 JavaScript Core
+### 🔹 Closures & Lexical Scope
+✔️ Private variables, memoization, callbacks.
+
+### 🔹 Promises & Async/Await
+✔️ Handling async operations, API calls, and event listeners.
+
+### 🔹 Memoization & Caching
+✔️ Store results to optimize performance (e.g., Fibonacci, API calls).
+
+### 🔹 Event Loop & Microtasks
+✔️ Understanding **call stack, task queue, microtask queue**.
+
+### 🔹 Functional Programming
+✔️ Pure functions, higher-order functions (`map`, `filter`, `reduce`).
+
+### 🔹 Currying & Partial Application
+✔️ Modular function transformations for better reuse.
+
+### 🔹 Prototypes & `this`
+✔️ JavaScript's **prototype-based inheritance**.
+
+### 🔹 Debouncing & Throttling
+✔️ Improve performance for **scrolling, resizing** events.
+
+### 🔹 Generators & Iterators
+✔️ Useful for **lazy evaluation, pagination**.
+
+### 🔹 WeakMap & WeakSet
+✔️ **Memory-efficient** storage with garbage collection support.
+
+### 🔹 Tail Call Optimization (TCO)
+✔️ Optimize recursive functions to avoid **stack overflow**.
+
+---
+
+## 🏗️ System Design Topics
+### 🔹 Internet & HTTP Basics
+✔️ HTTP vs. HTTPS, REST vs. GraphQL, Status Codes, CORS, DNS, API Rate Limiting.
+
+### 🔹 Accessibility (A11Y) & UX
+✔️ WCAG Guidelines, ARIA Roles, Screen Readers, Color Contrast.
+
+### 🔹 Performance Optimization
+✔️ Page Load Optimization, Lazy Loading, Database Indexing, Load Balancing.
+
+### 🔹 Security in System Design
+✔️ XSS, CSRF, SQL Injection, OAuth, JWT, HTTPS, DDoS Protection.
+
+### 🔹 Scalability & Load Balancing
+✔️ Horizontal vs. Vertical Scaling, Database Sharding, Microservices.
+
+### 🔹 Database Design & Optimization
+✔️ SQL vs. NoSQL, Indexing, Partitioning, Event Sourcing.
+
+### 🔹 APIs & Communication Patterns
+✔️ REST, GraphQL, gRPC, WebSockets, API Gateway.
+
+### 🔹 Microservices & Event-Driven Architecture
+✔️ Kafka, RabbitMQ, Pub/Sub, Docker, Kubernetes.
+
+### 🔹 DevOps & CI/CD
+✔️ GitHub Actions, Jenkins, Terraform, Monitoring (Grafana, ELK Stack).
+
+### 🔹 Design Patterns & Best Practices
+✔️ SOLID Principles, Singleton, Factory, Observer, CAP Theorem.
+
+---
+
+## 📌 System Design Practice Tasks
+- [ ] **Chat**
+- [ ] **Typeahead Search**
+- [ ] **Data Table**
+- [ ] **Infinite Scroll**
+- [ ] **Zoom/Teams**
+- [ ] **Component Library**
+- [ ] **Poll Widget**
+- [ ] **News Feed**
+- [ ] **Stock Service**
+- [ ] **Amazon Shop**
+- [ ] **Netflix**
+- [ ] **Trello**
+
+---
+
+## 🔥 Final Notes
+This plan serves as a **guide to mastering FAANG interviews**. Consistency is key! If you find this helpful, feel free to **star ⭐ this repository** and follow my progress.
+
+Let's crush FAANG interviews together! 🚀
