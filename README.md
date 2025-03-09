@@ -27,6 +27,21 @@ This document outlines my structured plan to prepare for **FAANG interviews**, c
 
 ### 🔹 Key Algorithm Topics
 - **Sliding Window** – Used for **subarrays, substrings, sequences**.
+## 🔹 Sliding Window  
+
+📌 **Used for:** Subarrays, substrings, sequences  
+
+📖 **Links:**  
+- [Mastering Sliding Window Techniques](https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7)  
+
+✅ **Tasks:**  
+- **Easy:** [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)  
+- **Medium:** [Maximum Sum of Distinct Subarrays With Length K]([https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/))  
+
+💡 **Opinion:** One of the easiest algorithmic techniques, but mastering optimizations can be tricky. 🚀  
+
+
+
 - **Two Pointers** – Efficient for **sorted arrays, linked lists**.
 - **Fast & Slow Pointers (Floyd’s Cycle Detection)** – Detect **cycles**.
 - **Merge Intervals** – Handle **overlapping ranges**.
