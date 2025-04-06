@@ -27,18 +27,30 @@ This document outlines my structured plan to prepare for **FAANG interviews**, c
 
 ### 🔹 Key Algorithm Topics
 - **Sliding Window** – Used for **subarrays, substrings, sequences**.
-## 🔹 Sliding Window  
-
-📌 **Used for:** Subarrays, substrings, sequences  
 
 📖 **Links:**  
 - [Mastering Sliding Window Techniques](https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7)  
 
-✅ **Tasks:**  
-- **Easy:** [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)  
-- **Medium:** [Maximum Sum of Distinct Subarrays With Length K]([https://leetcode.com/problems/longest-substring-without-repeating-characters/](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/))  
+#### 🟢 Easy  
+- [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) – Frequency map-based sliding window  
+- [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) – Fixed size sliding window  
+
+#### 🟡 Medium  
+- [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) – Fixed + HashSet  
+- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) – Classic dynamic sliding window  
+- [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) – Shrinking window when sum ≥ target  
+- [Fruits Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) – At most 2 types of fruit, like 2 distinct chars  
+- [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) – Max count + allowed replacements  
+- [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) – Tricky: requires inclusion-exclusion technique  
+- [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) – Maintain all 3 types in shrinking window  
+
+#### 🔴 Hard  
+- [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) – Deque-based (advanced technique)  
+- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) – Track char count, shrink while valid  
+- [Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/) – Mapping median to balance and prefix sum  
 
 💡 **Opinion:** One of the easiest algorithmic techniques, but mastering optimizations can be tricky. 🚀  
+
 
 
 
