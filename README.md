@@ -55,6 +55,30 @@ This document outlines my structured plan to prepare for **FAANG interviews**, c
 
 
 - **Two Pointers** – Efficient for **sorted arrays, linked lists**.
+### 🟢 Easy
+
+* [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) – Move unique values to front
+* [Reverse String](https://leetcode.com/problems/reverse-string/) – Swap with two pointers from ends
+* [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) – Step-by-step merge using two linked list pointers
+
+### 🟡 Medium
+
+* [3Sum](https://leetcode.com/problems/3sum/) – Sort + move two pointers for each fixed first element
+* [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) – Max area with left & right pointers moving inward
+* [Remove N-th Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) – Two pointers with delay, then remove target
+* [Partition Labels](https://leetcode.com/problems/partition-labels/) – Move right pointer to max reach, then split
+* [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) – Shrink left when product ≥ K
+
+### 🔴 Hard
+
+* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) – Precompute max left/right or use two pointers with logic
+* [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) – Two heaps + two pointers to maintain order
+* [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) – Shrinking window with char count tracking
+* [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) – Trie or map + reversed string match with two pointers
+* [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) – Shrink left when distinct > K
+
+
+Longest Substring with At Most K Distinct Characters – Shrink left when distinct > K
 - **Fast & Slow Pointers (Floyd’s Cycle Detection)** – Detect **cycles**.
 - **Merge Intervals** – Handle **overlapping ranges**.
 - **Binary Search** – Efficient searching in **sorted arrays**.
