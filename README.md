@@ -113,8 +113,22 @@ Longest Substring with At Most K Distinct Characters – Shrink left when distin
 ### 🔹 Functional Programming
 ✔️ Pure functions, higher-order functions (`map`, `filter`, `reduce`).
 
+Sure! Here's the updated markdown text with your requested additions and style:
+
+---
+
 ### 🔹 Currying & Partial Application
+
 ✔️ Modular function transformations for better reuse.
+
+Currently, there are two important tasks to practice currying:
+
+* [Implement Curry](https://bigfrontend.dev/problem/implement-curry)
+* [Implement Curry with Placeholder](https://bigfrontend.dev/problem/implement-curry-with-placeholder)
+
+Solving these two tasks easily means you truly understand the core concept of currying — at least that’s how I see it.
+
+
 
 ### 🔹 Prototypes & `this`
 ✔️ JavaScript's **prototype-based inheritance**.
