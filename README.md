@@ -1,202 +1,117 @@
 # 📌 FAANG Interview Study Plan
 
-## 🚀 Introduction
-Hey there! 👋 My name is **Stepan**, and I am a **Front-End Engineer at Microsoft** with around **8 years of experience** (Level 62 at Microsoft). 
+> **Author:** Front‑End Engineer @ Microsoft (L62), ~8 years’ experience  
+> My Telegram: [Connect on Telegram](https://t.me/webfordevs)
 
-This document outlines my structured plan to prepare for **FAANG interviews**, covering **algorithms, system design, and behavioral interviews**. Follow along as I document my journey! 🏆
-
----
-
-## 📌 Study Overview
-
-| Section               | Details |
-|----------------------|---------|
-| **Algorithm Practice** | Solve **5 easy, 5 medium, and 2 hard** tasks per topic (**~1 week per topic**). |
-| **System Design**     | Spend **~1 week per topic**. |
-| **Behavioral Interview** | Prepare **~3 stories per day**. |
+This is my structured plan to prepare for **FAANG and top-tier interviews**, covering **Algorithms**, **Front‑End System Design**, **JavaScript/FE fundamentals**, and **Behavioral interviews**. Follow along as I document the journey! 🏆
 
 ---
 
-## 📚 Algorithm Core 
-### 💡 How to Approach Algorithm Problems
-1. **Understand the Problem** – Read carefully, clarify requirements, and identify constraints.
-2. **Identify the Pattern** – Recognize problem type based on common techniques.
-3. **Plan the Approach** – Start with a brute-force solution, then optimize.
-4. **Implement the Code** – Follow a structured plan, keeping it modular.
-5. **Optimize & Test** – Analyze time/space complexity and test edge cases.
+## 🧭 Why This Plan
 
-### 🔹 Key Algorithm Topics
-- **Sliding Window** – Used for **subarrays, substrings, sequences**.
-
-📖 **Links:**  
-- [Mastering Sliding Window Techniques](https://medium.com/@rishu__2701/mastering-sliding-window-techniques-48f819194fd7)  
-
-#### 🟢 Easy  
-- [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) – Frequency map-based sliding window  
-- [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) – Fixed size sliding window  
-
-#### 🟡 Medium  
-- [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) – Fixed + HashSet  
-- [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) – Classic dynamic sliding window  
-- [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) – Shrinking window when sum ≥ target  
-- [Fruits Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) – At most 2 types of fruit, like 2 distinct chars  
-- [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) – Max count + allowed replacements  
-- [Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) – Tricky: requires inclusion-exclusion technique  
-- [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) – Maintain all 3 types in shrinking window  
-
-#### 🔴 Hard  
-- [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) – Deque-based (advanced technique)  
-- [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) – Track char count, shrink while valid  
-- [Count Subarrays With Median K](https://leetcode.com/problems/count-subarrays-with-median-k/) – Mapping median to balance and prefix sum  
-
-💡 **Opinion:** One of the easiest algorithmic techniques, but mastering optimizations can be tricky. 🚀  
-
-
-
-
-- **Two Pointers** – Efficient for **sorted arrays, linked lists**.
-### 🟢 Easy
-
-* [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) – Move unique values to front
-* [Reverse String](https://leetcode.com/problems/reverse-string/) – Swap with two pointers from ends
-* [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) – Step-by-step merge using two linked list pointers
-
-### 🟡 Medium
-
-* [3Sum](https://leetcode.com/problems/3sum/) – Sort + move two pointers for each fixed first element
-* [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) – Max area with left & right pointers moving inward
-* [Remove N-th Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) – Two pointers with delay, then remove target
-* [Partition Labels](https://leetcode.com/problems/partition-labels/) – Move right pointer to max reach, then split
-* [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) – Shrink left when product ≥ K
-
-### 🔴 Hard
-
-* [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) – Precompute max left/right or use two pointers with logic
-* [Sliding Window Median](https://leetcode.com/problems/sliding-window-median/) – Two heaps + two pointers to maintain order
-* [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) – Shrinking window with char count tracking
-* [Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/) – Trie or map + reversed string match with two pointers
-* [Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) – Shrink left when distinct > K
-
-
-Longest Substring with At Most K Distinct Characters – Shrink left when distinct > K
-- **Fast & Slow Pointers (Floyd’s Cycle Detection)** – Detect **cycles**.
-- **Merge Intervals** – Handle **overlapping ranges**.
-- **Binary Search** – Efficient searching in **sorted arrays**.
-- **Bit Manipulation** – Useful for **binary number operations**.
-- **Backtracking** – Explore multiple possibilities **recursively**.
-- **Dynamic Programming (DP)** – Solve problems with **overlapping subproblems**.
-- **Greedy Algorithms** – Optimal **local choices** leading to a global solution.
-- **Graph Traversal (DFS & BFS)** – Solve **grid/tree problems**.
-- **Union-Find (Disjoint Set)** – Handle **connectivity problems**.
-- **Heap (Priority Queue)** – Find **smallest/largest** element efficiently.
-- **Prefix Sum & Difference Arrays** – Optimize **subarray sum queries**.
-- **Topological Sorting** – Solve problems with **dependencies (DAG)**.
-- **Trie (Prefix Tree)** – Useful for **autocomplete, dictionary words**.
-- **Monotonic Stack / Queue** – Solve **next/previous greater elements**.
-- **Segment Tree & Fenwick Tree** – Handle **efficient range queries**.
+My first version leaned heavily on LeetCode patterns. It didn’t stick. Switching to **GreatFrontEnd** (GFE) gave me a fresh, more relevant set of problems and rekindled my daily problem‑solving habit. This plan reflects that shift while keeping algorithm fundamentals and system design sharp.
 
 ---
 
-## 📌 JavaScript Core
-### 🔹 Closures & Lexical Scope
-✔️ Private variables, memoization, callbacks.
+## ✅ Study Plan (Mixed Program)
 
-### 🔹 Promises & Async/Await
-✔️ Handling async operations, API calls, and event listeners.
-
-### 🔹 Memoization & Caching
-✔️ Store results to optimize performance (e.g., Fibonacci, API calls).
-
-### 🔹 Event Loop & Microtasks
-✔️ Understanding **call stack, task queue, microtask queue**.
-
-### 🔹 Functional Programming
-✔️ Pure functions, higher-order functions (`map`, `filter`, `reduce`).
-
-Sure! Here's the updated markdown text with your requested additions and style:
-
----
-
-### 🔹 Currying & Partial Application
-
-✔️ Modular function transformations for better reuse.
-
-Currently, there are two important tasks to practice currying:
-
-* [Implement Curry](https://bigfrontend.dev/problem/implement-curry)
-* [Implement Curry with Placeholder](https://bigfrontend.dev/problem/implement-curry-with-placeholder)
-
-Solving these two tasks easily means you truly understand the core concept of currying — at least that’s how I see it.
-
-
-
-### 🔹 Prototypes & `this`
-✔️ JavaScript's **prototype-based inheritance**.
-
-### 🔹 Debouncing & Throttling
-✔️ Improve performance for **scrolling, resizing** events.
-
-### 🔹 Generators & Iterators
-✔️ Useful for **lazy evaluation, pagination**.
-
-### 🔹 WeakMap & WeakSet
-✔️ **Memory-efficient** storage with garbage collection support.
-
-### 🔹 Tail Call Optimization (TCO)
-✔️ Optimize recursive functions to avoid **stack overflow**.
+- **[Theory]** [Front‑End Interview Playbook — GFE](https://www.greatfrontend.com/front-end-interview-playbook)
+- **[Practice]** [Data Structures & Algorithms — GFE](https://www.greatfrontend.com/interviews/focus-areas/data-structures-algorithms)
+- **[Practice]** [Data Structures & Algorithms — HelloInterview](https://www.hellointerview.com/learn/code)
+- **[Practice]** [GFE 75](https://www.greatfrontend.com/interviews/gfe75)
+- **[Theory]** [Front‑End System Design Playbook — GFE](https://www.greatfrontend.com/front-end-system-design-playbook)
+- **[Theory]** [System Design in a Hurry — HelloInterview](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction)
+- **[Theory]** [Grokking the Modern System Design Interview — Educative](https://www.educative.io/courses/grokking-the-system-design-interview/getting-ready-for-the-system-design-interview)
+- **[Theory]** [High Performance Browser Networking](https://hpbn.co/)
+- **[Practice]** Front‑End System Design Projects [Part 1]: Chat, Typeahead Search, News Feed, Trello, Data Table
+- **[Theory]** *The Software Developer’s Career Handbook* — O’Reilly
+- **[Practice]** [Blind 75 — GFE](https://www.greatfrontend.com/interviews/blind75)
+- **[Theory]** *Software Engineering at Google*
+- **[Practice]** Front‑End System Design Projects [Part 2]: Infinite Scroll, Netflix, Stock Service, Component Library
+- **[Theory]** *The Staff Engineer’s Path* — Tanya Reilly
+- **[Theory]** *The Art of Leadership* — O’Reilly
+- **[Theory]** [Coding Patterns repo (repeat everything)](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews)
+- **[Practice]** [JavaScript Interview Questions — GFE](https://www.greatfrontend.com/questions/javascript-interview-questions)
 
 ---
 
-## 🏗️ System Design Topics
-### 🔹 Internet & HTTP Basics
-✔️ HTTP vs. HTTPS, REST vs. GraphQL, Status Codes, CORS, DNS, API Rate Limiting.
+## 📊 Progress Tracking
 
-### 🔹 Accessibility (A11Y) & UX
-✔️ WCAG Guidelines, ARIA Roles, Screen Readers, Color Contrast.
+### Core Resources & Books
 
-### 🔹 Performance Optimization
-✔️ Page Load Optimization, Lazy Loading, Database Indexing, Load Balancing.
+| Area | Resource | Status | Notes |
+|---|---|---|---|
+| [Theory] | Front‑End Interview Playbook (GFE) | [ ] Not started |  |
+| [Practice] | DSA — GFE | [ ] Not started |  |
+| [Practice] | DSA — HelloInterview | [ ] Not started |  |
+| [Practice] | GFE 75 | [ ] 0 / 75 | Track score & revisits |
+| [Theory] | Front‑End System Design Playbook (GFE) | [ ] Not started |  |
+| [Theory] | System Design in a Hurry (HelloInterview) | [ ] Not started |  |
+| [Theory] | Grokking Modern SDI (Educative) | [ ] Not started |  |
+| [Theory] | High Performance Browser Networking | [ ] Not started |  |
+| [Practice] | Blind 75 (GFE) | [ ] 0 / 75 |  |
+| [Practice] | FE Sys.Design Part 1 | [ ] 0 / 5 |  |
+| [Practice] | FE Sys.Design Part 2 | [ ] 0 / 4 |  |
+| [Practice] | JS Interview Questions (GFE) | [ ] In progress | Drill 10/day |
+| [Theory] | The Software Developer’s Career Handbook | [ ] Not started |  |
+| [Theory] | Software Engineering at Google | [ ] Not started |  |
+| [Theory] | The Staff Engineer’s Path | [ ] Not started |  |
+| [Theory] | The Art of Leadership | [ ] Not started |  |
 
-### 🔹 Security in System Design
-✔️ XSS, CSRF, SQL Injection, OAuth, JWT, HTTPS, DDoS Protection.
+### Behavioral Prep
 
-### 🔹 Scalability & Load Balancing
-✔️ Horizontal vs. Vertical Scaling, Database Sharding, Microservices.
+| Area | Resource | Status | Notes |
+|---|---|---|---|
+| [Behavioral] | STAR Stories | [ ]  Not started | Build 10+ stories |
+| [Behavioral] | Leadership Principles | [ ] Not started | Map stories to principles |
 
-### 🔹 Database Design & Optimization
-✔️ SQL vs. NoSQL, Indexing, Partitioning, Event Sourcing.
+### Target Companies
 
-### 🔹 APIs & Communication Patterns
-✔️ REST, GraphQL, gRPC, WebSockets, API Gateway.
-
-### 🔹 Microservices & Event-Driven Architecture
-✔️ Kafka, RabbitMQ, Pub/Sub, Docker, Kubernetes.
-
-### 🔹 DevOps & CI/CD
-✔️ GitHub Actions, Jenkins, Terraform, Monitoring (Grafana, ELK Stack).
-
-### 🔹 Design Patterns & Best Practices
-✔️ SOLID Principles, Singleton, Factory, Observer, CAP Theorem.
+| Company | Date Applied | First Answer Date | Result |
+|---|---|---|---|
+| Citadel |  |  |  |
+| Point72 |  |  |  |
+| Millennium Management |  |  |  |
+| JP Morgan |  |  |  |
+| The Trade Desk |  |  |  |
+| Meta |  |  |  |
+| Amazon |  |  |  |
+| Netflix |  |  |  |
+| Vercel |  |  |  |
+| Google |  |  |  |
+| Stripe |  |  |  |
+| Bloomberg |  |  |  |
+| Apple |  |  |  |
+| Palantir |  |  |  |
+| Reddit |  |  |  |
+| BlackRock |  |  |  |
+| OpenAI |  |  |  |
+| Oracle |  |  |  |
+| Jane Street |  |  |  |
+| Uber |  |  |  |
+| Databricks |  |  |  |
+| Coinbase |  |  |  |
+| ByteDance |  |  |  |
+| Canva |  |  |  |
+| Snowflake |  |  |  |
+| Dropbox |  |  |  |
+| Visa |  |  |  |
+| Datadog |  |  |  |
+| Pinterest |  |  |  |
 
 ---
 
-## 📌 System Design Practice Tasks
-- [ ] **Chat**
-- [ ] **Typeahead Search**
-- [ ] **Data Table**
-- [ ] **Infinite Scroll**
-- [ ] **Zoom/Teams**
-- [ ] **Component Library**
-- [ ] **Poll Widget**
-- [ ] **News Feed**
-- [ ] **Stock Service**
-- [ ] **Amazon Shop**
-- [ ] **Netflix**
-- [ ] **Trello**
+## 🔗 Useful Links
+
+- [Check salaries by company — Levels.fyi](https://www.levels.fyi/)
+- [Ten Rules for Negotiating a Job Offer — Haseeb Qureshi](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
+- [Salary Negotiation — Kalzumeus](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
+- [Amazon Leadership Principles — LeetCode](https://leetcode.com/discuss/post/2183771/amazon-leadership-principles-by-gyanar-ij2l/)
 
 ---
 
 ## 🔥 Final Notes
-This plan serves as a **guide to mastering FAANG interviews**. Consistency is key! If you find this helpful, feel free to **star ⭐ this repository** and follow my progress.
 
-Let's crush FAANG interviews together! 🚀
+Consistency beats intensity. Keep rotating topics, logging sessions, and running mocks.  
+If this plan helps you, star ⭐ the repo and follow along.  
+Let’s crush FAANG interviews together! 🚀
