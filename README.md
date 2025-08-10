@@ -39,24 +39,25 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 
 ### Core Resources & Books
 
-| Area | Resource | Status | Notes |
-|---|---|---|---|
-| [Theory] | Front‑End Interview Playbook (GFE) | [ ] Not started |  |
-| [Practice] | DSA — GFE | [ ] Not started |  |
-| [Practice] | DSA — HelloInterview | [ ] Not started |  |
-| [Practice] | GFE 75 | [ ] 0 / 75 | Track score & revisits |
-| [Theory] | Front‑End System Design Playbook (GFE) | [ ] Not started |  |
-| [Theory] | System Design in a Hurry (HelloInterview) | [ ] Not started |  |
-| [Theory] | Grokking Modern SDI (Educative) | [ ] Not started |  |
-| [Theory] | High Performance Browser Networking | [ ] Not started |  |
-| [Practice] | Blind 75 (GFE) | [ ] 0 / 75 |  |
-| [Practice] | FE Sys.Design Part 1 | [ ] 0 / 5 |  |
-| [Practice] | FE Sys.Design Part 2 | [ ] 0 / 4 |  |
-| [Practice] | JS Interview Questions (GFE) | [ ] In progress | Drill 10/day |
-| [Theory] | The Software Developer’s Career Handbook | [ ] Not started |  |
-| [Theory] | Software Engineering at Google | [ ] Not started |  |
-| [Theory] | The Staff Engineer’s Path | [ ] Not started |  |
-| [Theory] | The Art of Leadership | [ ] Not started |  |
+| Area       | Resource                                           | Status       | Date       | Notes |
+|------------|----------------------------------------------------|--------------|------------|-------|
+| [Theory]   | Front-End Interview Playbook (GFE)                 | [ ] Not started | —          | Covers key FE interview topics; read 1–2 sections/day. |
+| [Practice] | DSA — GFE                                          | [ ] Not started | —          | Focus on basics first; 3 problems/day. |
+| [Practice] | DSA — HelloInterview                               | [ ] Not started | —          | Use after GFE DSA for variety; 2–3 problems/week. |
+| [Practice] | GFE 75                                             | [ ] 0 / 75   | —          | Track score & revisits; aim for 5/week. |
+| [Theory]   | Front-End System Design Playbook (GFE)             | ✅ Done     | 8 Aug 2025 | Read all chapters; focus on component design, data flow, perf trade-offs. Great for structuring answers. Revisit before mock interviews. |
+| [Theory]   | System Design in a Hurry (HelloInterview)          | [ ] Not started | —          | Good for quick refresh; 1–2 days to cover. |
+| [Theory]   | Grokking Modern SDI (Educative)                    | [ ] Not started | —          | Skim free lessons; focus on frontend-related cases. |
+| [Theory]   | High Performance Browser Networking                | [ ] Not started | —          | Read selectively: HTTP/2, caching, TCP basics; 20–30 min/day. |
+| [Practice] | Blind 75 (GFE)                                     | [ ] 0 / 75   | —          | Keep as rotation set; 4–5/week. |
+| [Practice] | FE Sys.Design Part 1                               | [ ] 0 / 5    | —          | Simple systems: Typeahead, Data table, Infinite scroll; 1/week. |
+| [Practice] | FE Sys.Design Part 2                               | [ ] 0 / 4    | —          | Complex apps: Chat, Trello; 1/week. |
+| [Practice] | JS Interview Questions (GFE)                       | [ ] In progress | —          | Drill 10/day; note weak spots. |
+| [Theory]   | The Software Developer’s Career Handbook           | [ ] Not started | —          | Read 10–15 pages/day; focus on interview mindset. |
+| [Theory]   | Software Engineering at Google                     | [ ] Not started | —          | Skim relevant chapters: testing, code review. |
+| [Theory]   | The Staff Engineer’s Path                          | [ ] Not started | —          | Focus on leadership scenarios for behavioral rounds. |
+| [Theory]   | The Art of Leadership                              | [ ] Not started | —          | Read in parallel with behavioral prep. |
+
 
 ### Behavioral Prep
 
