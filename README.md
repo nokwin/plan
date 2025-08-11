@@ -108,7 +108,9 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 - [Ten Rules for Negotiating a Job Offer — Haseeb Qureshi](https://haseebq.com/my-ten-rules-for-negotiating-a-job-offer/)
 - [Salary Negotiation — Kalzumeus](https://www.kalzumeus.com/2012/01/23/salary-negotiation/)
 - [Amazon Leadership Principles — LeetCode](https://leetcode.com/discuss/post/2183771/amazon-leadership-principles-by-gyanar-ij2l/)
-
+- [Learn Accessibility — An evergreen accessibility course and reference to level up your web development.](https://web.dev/learn/accessibility/)
+- [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
+- [Software Engineer Resume Handbook](https://www.faangtechleads.com/resume/handbook)
 ---
 
 ## 🔥 Final Notes
