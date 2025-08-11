@@ -41,10 +41,10 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 
 | Area       | Resource                                           | Status       | Date       | Notes |
 |------------|----------------------------------------------------|--------------|------------|-------|
-| [Theory]   | Front-End Interview Playbook (GFE)                 | [ ] Not started | —          | Covers key FE interview topics; read 1–2 sections/day. |
+| [Theory]   | Front-End Interview Playbook (GFE)                 | ✅ Done | 9 Aug 2025         | Covers key FE interview topics; 1 day to read |
 | [Practice] | DSA — GFE                                          | [ ] Not started | —          | Focus on basics first; 3 problems/day. |
 | [Practice] | DSA — HelloInterview                               | [ ] Not started | —          | Use after GFE DSA for variety; 2–3 problems/week. |
-| [Practice] | GFE 75                                             | [ ] 0 / 75   | —          | Track score & revisits; aim for 5/week. |
+| [Practice] | GFE 75                                             | [ ] 49 / 75   | —          | Track score & revisits; aim for 5/week. |
 | [Theory]   | Front-End System Design Playbook (GFE)             | ✅ Done     | 8 Aug 2025 | Read all chapters; focus on component design, data flow, perf trade-offs. Great for structuring answers. Revisit before mock interviews. |
 | [Theory]   | System Design in a Hurry (HelloInterview)          | [ ] Not started | —          | Good for quick refresh; 1–2 days to cover. |
 | [Theory]   | Grokking Modern SDI (Educative)                    | [ ] Not started | —          | Skim free lessons; focus on frontend-related cases. |
