@@ -111,6 +111,7 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 - [Learn Accessibility — An evergreen accessibility course and reference to level up your web development.](https://web.dev/learn/accessibility/)
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
 - [Software Engineer Resume Handbook](https://www.faangtechleads.com/resume/handbook)
+- [What happens when you type google.com into your browser's address box and press enter?](https://github.com/alex/what-happens-when)
 ---
 
 ## 🔥 Final Notes
