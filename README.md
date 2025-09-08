@@ -123,7 +123,7 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 - [Tech Interview Handbook](https://www.techinterviewhandbook.org/)
 - [Software Engineer Resume Handbook](https://www.faangtechleads.com/resume/handbook)
 - [What happens when you type google.com into your browser's address box and press enter?](https://github.com/alex/what-happens-when)
-- [Chat app - FrontEnd System Design](https://youtu.be/rTCdpNiV-HU)
+- [JavaScript algorithms](https://github.com/trekhleb/javascript-algorithms)
 ---
 
 ## 🔥 Final Notes
