@@ -54,7 +54,7 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 | 7  | [Practice] | Forms (GFE)                                        | [ ] Not started| —          | HTML+JS integration |
 | 8  | [Practice] | Design System Components (GFE)                     | [ ] Not started| —          | Reusable UI components |
 | 9  | [Practice] | DSA — HelloInterview                               | [ ] Not started| —          | Extra practice set |
-| 10 | [Practice] | GFE 75                                             | [ ] 66 / 75 In progress| —          | Track score weekly |
+| 10 | [Practice] | GFE 75                                             | [ ] 66 / 73 In progress| —          | Track score weekly |
 | 11 | [Theory]   | Front-End System Design Playbook (GFE)             | ✅ Done     | 8 Aug 2025 | Structure FE SD answers |
 | 12 | [Theory]   | System Design in a Hurry (HelloInterview)          | [ ] Not started| —          | Quick refresher |
 | 13 | [Theory]   | Grokking Modern SDI (Educative)                    | [ ] Not started| —          | Skim frontend-related cases |
