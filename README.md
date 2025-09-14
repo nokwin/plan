@@ -28,7 +28,7 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 11. **[Theory]** [System Design in a Hurry — HelloInterview](https://www.hellointerview.com/learn/system-design/in-a-hurry/introduction)  
 12. **[Theory]** [Grokking the Modern System Design Interview — Educative](https://www.educative.io/courses/grokking-the-system-design-interview/getting-ready-for-the-system-design-interview)  
 13. **[Theory]** [High Performance Browser Networking](https://hpbn.co/)  
-14. **[Practice]** [GFE 75 (System design)] (https://www.greatfrontend.com/interviews/gfe75)    
+14. **[Practice]** [GFE 75 - System design only](https://www.greatfrontend.com/interviews/gfe75)    
 15. **[Practice]** [Blind 75 — GFE](https://www.greatfrontend.com/interviews/blind75)  
 16. **[Practice]** [JavaScript Interview Questions — GFE](https://www.greatfrontend.com/questions/javascript-interview-questions)  
 17. **[Theory]** [Coding Patterns repo (repeat everything)](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews)  
