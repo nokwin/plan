@@ -43,7 +43,7 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 
 | #  | Area       | Resource                                           | Status         | Date       | Notes |
 |----|------------|----------------------------------------------------|----------------|------------|-------|
-| 1  | [Theory]   | Front-End Interview Playbook (GFE)                 | ✅ Done | 9 Aug 2025| Covers key FE interview topics |
+| 1  | [Theory]   | Front-End Interview Playbook (GFE)                 | [-] Started    | -          | Covers key FE interview topics |
 | 2  | [Practice] | DSA — GFE                                          | [ ] Not started| —          | Focus on basics first |
 | 3  | [Practice] | JavaScript Polyfills (GFE)                         | [ ] Not started| —          | Re-implement JS methods |
 | 4  | [Practice] | Lodash Functions (GFE)                             | [ ] Not started| —          | Practice lodash vs plain JS |
@@ -52,7 +52,7 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 | 7  | [Practice] | Forms (GFE)                                        | [ ] Not started| —          | HTML+JS integration |
 | 8  | [Practice] | Design System Components (GFE)                     | [ ] Not started| —          | Reusable UI components |
 | 9  | [Practice] | DSA — HelloInterview                               | [ ] Not started| —          | Extra practice set |
-| 10 | [Theory]   | Front-End System Design Playbook (GFE)             | ✅ Done     | 8 Aug 2025 | Structure FE SD answers |
+| 10 | [Theory]   | Front-End System Design Playbook (GFE)             | [ ] Not started| -          | Structure FE SD answers |
 | 11 | [Theory]   | System Design in a Hurry (HelloInterview)          | [ ] Not started| —          | Quick refresher |
 | 12 | [Theory]   | Grokking Modern SDI (Educative)                    | [ ] Not started| —          | Skim frontend-related cases |
 | 13 | [Theory]   | High Performance Browser Networking                | [ ] Not started| —          | Focus on HTTP/2, caching |
