@@ -41,29 +41,29 @@ My first version leaned heavily on LeetCode patterns. It didn’t stick. Switchi
 
 ## 📊 Progress Tracking
 
-| #  | Area       | Resource                                           | Status         | Date       | Notes |
-|----|------------|----------------------------------------------------|----------------|------------|-------|
-| 1  | [Theory]   | Front-End Interview Playbook (GFE)                 | [-] Started    | -          | Covers key FE interview topics |
-| 2  | [Practice] | DSA — GFE                                          | [ ] Not started| —          | Focus on basics first |
-| 3  | [Practice] | JavaScript Polyfills (GFE)                         | [ ] Not started| —          | Re-implement JS methods |
-| 4  | [Practice] | Lodash Functions (GFE)                             | [ ] Not started| —          | Practice lodash vs plain JS |
-| 5  | [Practice] | Async Operations (GFE)                             | [ ] Not started| —          | Event loop, promises, async/await |
-| 6  | [Practice] | DOM Manipulation (GFE)                             | [ ] Not started| —          | Direct hands-on coding |
-| 7  | [Practice] | Forms (GFE)                                        | [ ] Not started| —          | HTML+JS integration |
-| 8  | [Practice] | Design System Components (GFE)                     | [ ] Not started| —          | Reusable UI components |
-| 9  | [Practice] | DSA — HelloInterview                               | [ ] Not started| —          | Extra practice set |
-| 10 | [Theory]   | Front-End System Design Playbook (GFE)             | [ ] Not started| -          | Structure FE SD answers |
-| 11 | [Theory]   | System Design in a Hurry (HelloInterview)          | [ ] Not started| —          | Quick refresher |
-| 12 | [Theory]   | Grokking Modern SDI (Educative)                    | [ ] Not started| —          | Skim frontend-related cases |
-| 13 | [Theory]   | High Performance Browser Networking                | [ ] Not started| —          | Focus on HTTP/2, caching |
-| 14 | [Practice] | GFE 75 (focus on System design)                    | [ ] 0 / 8 Not started| —    | Solve only System design tasks |
-| 15 | [Practice] | Blind 75 (GFE)                                     | [ ] Not started| —          | Core algorithm set |
-| 16 | [Practice] | JS Interview Questions (GFE)                       | [ ] Not started| —          | Drill 10/day; note weak spots. |
-| 17 | [Theory]   | Coding Patterns repo                               | [ ] Not started| —          | Repeat patterns regularly |
-| 18 | [Theory]   | The Software Developer’s Career Handbook           | [ ] Not started| —          | Read 10–15 pages/day; focus on interview mindset. |
-| 19 | [Theory]   | Software Engineering at Google                     | [ ] Not started| —          | Skim relevant chapters |
-| 20 | [Theory]   | The Staff Engineer’s Path                          | [ ] Not started| —          | Leadership prep |
-| 21 | [Theory]   | The Art of Leadership                              | [ ] Not started| —          | Read in parallel with behavioral prep. |
+| #  | Area       | Resource                                           | Status         | Date        | Notes |
+|----|------------|----------------------------------------------------|----------------|-------------|-------|
+| 1  | [Theory]   | Front-End Interview Playbook (GFE)                 | [x] Done       | Sep 17, 2025| Covers key FE interview topics |
+| 2  | [Practice] | DSA — GFE                                          | [ ] Not started| —           | Focus on basics first |
+| 3  | [Practice] | JavaScript Polyfills (GFE)                         | [ ] Not started| —           | Re-implement JS methods |
+| 4  | [Practice] | Lodash Functions (GFE)                             | [ ] Not started| —           | Practice lodash vs plain JS |
+| 5  | [Practice] | Async Operations (GFE)                             | [ ] Not started| —           | Event loop, promises, async/await |
+| 6  | [Practice] | DOM Manipulation (GFE)                             | [ ] Not started| —           | Direct hands-on coding |
+| 7  | [Practice] | Forms (GFE)                                        | [ ] Not started| —           | HTML+JS integration |
+| 8  | [Practice] | Design System Components (GFE)                     | [ ] Not started| —           | Reusable UI components |
+| 9  | [Practice] | DSA — HelloInterview                               | [ ] Not started| —           | Extra practice set |
+| 10 | [Theory]   | Front-End System Design Playbook (GFE)             | [ ] Not started| -           | Structure FE SD answers |
+| 11 | [Theory]   | System Design in a Hurry (HelloInterview)          | [ ] Not started| —           | Quick refresher |
+| 12 | [Theory]   | Grokking Modern SDI (Educative)                    | [ ] Not started| —           | Skim frontend-related cases |
+| 13 | [Theory]   | High Performance Browser Networking                | [ ] Not started| —           | Focus on HTTP/2, caching |
+| 14 | [Practice] | GFE 75 (focus on System design)                    | [ ] 0 / 8 Not started| —     | Solve only System design tasks |
+| 15 | [Practice] | Blind 75 (GFE)                                     | [ ] Not started| —           | Core algorithm set |
+| 16 | [Practice] | JS Interview Questions (GFE)                       | [ ] Not started| —           | Drill 10/day; note weak spots. |
+| 17 | [Theory]   | Coding Patterns repo                               | [ ] Not started| —           | Repeat patterns regularly |
+| 18 | [Theory]   | The Software Developer’s Career Handbook           | [ ] Not started| —           | Read 10–15 pages/day; focus on interview mindset. |
+| 19 | [Theory]   | Software Engineering at Google                     | [ ] Not started| —           | Skim relevant chapters |
+| 20 | [Theory]   | The Staff Engineer’s Path                          | [ ] Not started| —           | Leadership prep |
+| 21 | [Theory]   | The Art of Leadership                              | [ ] Not started| —           | Read in parallel with behavioral prep. |
 
 
 ### Behavioral Prep
